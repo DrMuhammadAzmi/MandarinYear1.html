@@ -26,5 +26,15 @@ const VOCAB_DATA = [
   { char: '青山', py: 'qīng shān', ms: 'gunung hijau', en: 'green mountain', topic: 'Topic 5', emoji: '⛰️', strokes: [['青'], ['山']], tip: '青 = 8 strokes. 山 = 3 strokes.', count: '8 + 3 = 11' },
   { char: '弯曲', py: 'wān qū', ms: 'bengkang-bengkok', en: 'curved / winding', topic: 'Topic 5', emoji: '〰️', strokes: [['弓','弯'], ['曲']], tip: '弯 = 9 strokes. 曲 = 6 strokes.', count: '9 + 6 = 15' },
   { char: '小河', py: 'xiǎo hé', ms: 'sungai kecil', en: 'small river', topic: 'Topic 5', emoji: '🏞️', strokes: [['小'], ['氵','河']], tip: '小 = 3 strokes. 河 = 8 strokes (water radical 氵).', count: '3 + 8 = 11' },
-  { char: '只', py: 'zhī', ms: 'penjodoh bilangan (ekor)', en: 'measure word (animals)', topic: 'Topic 5', emoji: '🔢', strokes: [['口','只']], tip: '只 = 5 strokes. Used as a measure word for animals like birds or cats.', count: '5' }
+  { char: '只', py: 'zhī', ms: 'penjodoh bilangan (ekor)', en: 'measure word (animals)', topic: 'Topic 5', emoji: '🔢', strokes: [['口','只']], tip: '只 = 5 strokes. Used as a measure word for animals like birds or cats.', count: '5' },
+// ── Topic 6 ───────────────────────────────────────────────
+  { char: '老虎', py: 'lǎo hǔ', ms: 'harimau', en: 'tiger', topic: 'Topic 6', emoji: '🐯', strokes: [['老'], ['虎']], tip: '虎 = 8 strokes. The top part represents the tiger\'s head.', count: '6 + 8 = 14' },
+  { char: '小猫', py: 'xiǎo māo', ms: 'anak kucing', en: 'kitten', topic: 'Topic 6', emoji: '🐱', strokes: [['小'], ['犭','猫']], tip: '猫 has the animal radical 犭 on the left.', count: '3 + 11 = 14' },
+  { char: '多少', py: 'duō shǎo', ms: 'berapa banyak', en: 'how many', topic: 'Topic 6', emoji: '❓', strokes: [['夕','多'], ['少']], tip: '多 is two "evening" 夕 characters stacked.', count: '6 + 4 = 10' },
+  { char: '一群', py: 'yì qún', ms: 'sekumpulan', en: 'a group / flock', topic: 'Topic 6', emoji: '🐑', strokes: [['一'], ['君','群']], tip: '群 has the sheep radical 羊 at the bottom right.', count: '1 + 13 = 14' },
+  { char: '天鹅', py: 'tiān é', ms: 'angsa', en: 'swan', topic: 'Topic 6', emoji: '🦢', strokes: [['天'], ['我','鹅']], tip: '鹅 has the bird radical 鸟 on the right.', count: '4 + 13 = 17' },
+  { char: '蚂蚁', py: 'mǎ yǐ', ms: 'semut', en: 'ant', topic: 'Topic 6', emoji: '🐜', strokes: [['虫','蚂'], ['虫','蚁']], tip: 'Both characters use the insect radical 虫.', count: '9 + 9 = 18' },
+  { char: '小虫', py: 'xiǎo chóng', ms: 'ulat kecil', en: 'small bug', topic: 'Topic 6', emoji: '🐛', strokes: [['小'], ['虫']], tip: '虫 is the basic character for insects/bugs.', count: '3 + 6 = 9' },
+  { char: '搬不动', py: 'bān bú dòng', ms: 'tidak boleh angkat', en: 'cannot move', topic: 'Topic 6', emoji: '📦', strokes: [['扌','搬'], ['不'], ['力','动']], tip: '搬 uses the hand radical 扌 because moving requires hands.', count: '13 + 4 + 6 = 23' },
+  { char: '重', py: 'zhòng', ms: 'berat', en: 'heavy', topic: 'Topic 6', emoji: '🏋️', strokes: [['重']], tip: '重 = 9 strokes. Think of a heavy load on a person.', count: '9' }
 ];
